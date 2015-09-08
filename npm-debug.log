@@ -1,0 +1,69 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'javascripting' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose cache add [ 'javascripting', null ]
+5 verbose cache add name=undefined spec="javascripting" args=["javascripting",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'javascripting',
+6 verbose parsed url   path: 'javascripting',
+6 verbose parsed url   href: 'javascripting' }
+7 silly lockFile ae6d31f2-javascripting javascripting
+8 verbose lock javascripting /home/ubuntu/.npm/ae6d31f2-javascripting.lock
+9 silly lockFile ae6d31f2-javascripting javascripting
+10 silly lockFile ae6d31f2-javascripting javascripting
+11 verbose addNamed [ 'javascripting', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 9ef866d8-javascripting javascripting@
+14 verbose lock javascripting@ /home/ubuntu/.npm/9ef866d8-javascripting.lock
+15 silly addNameRange { name: 'javascripting', range: '*', hasData: false }
+16 verbose request where is /javascripting
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 888ca9c97453f382
+19 verbose url raw /javascripting
+20 verbose url resolving [ 'https://registry.npmjs.org/', './javascripting' ]
+21 verbose url resolved https://registry.npmjs.org/javascripting
+22 verbose request where is https://registry.npmjs.org/javascripting
+23 info trying registry request attempt 1 at 18:11:52
+24 http GET https://registry.npmjs.org/javascripting
+25 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+26 info trying registry request attempt 2 at 18:12:03
+27 http GET https://registry.npmjs.org/javascripting
+28 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+29 info trying registry request attempt 3 at 18:13:04
+30 http GET https://registry.npmjs.org/javascripting
+31 silly lockFile 9ef866d8-javascripting javascripting@
+32 silly lockFile 9ef866d8-javascripting javascripting@
+33 error Error: connect ECONNREFUSED
+33 error     at errnoException (net.js:905:11)
+33 error     at Object.afterConnect [as oncomplete] (net.js:896:19)
+33 error  { [Error: connect ECONNREFUSED]
+33 error   code: 'ECONNREFUSED',
+33 error   errno: 'ECONNREFUSED',
+33 error   syscall: 'connect' }
+34 error If you are behind a proxy, please make sure that the
+34 error 'proxy' config is set properly.  See: 'npm help config'
+35 error System Linux 3.14.13-c9
+36 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "install" "-g" "javascripting"
+37 error cwd /home/ubuntu/workspace
+38 error node -v v0.10.35
+39 error npm -v 1.4.28
+40 error syscall connect
+41 error code ECONNREFUSED
+42 error errno ECONNREFUSED
+43 error stack Error: connect ECONNREFUSED
+43 error stack     at errnoException (net.js:905:11)
+43 error stack     at Object.afterConnect [as oncomplete] (net.js:896:19)
+44 verbose exit [ 1, true ]
